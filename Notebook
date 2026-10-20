@@ -1,0 +1,5 @@
+16-لاحظ الفرق:
+COPY ./app /app في Dockerfile: ينسخ الملفات أثناء بناء الصورة.
+volumes: - ./app:/app في Compose: يربط الملفات أثناء تشغيل الحاوية.
+17-linting and tests
+flake8
