@@ -3,3 +3,14 @@ COPY ./app /app في Dockerfile: ينسخ الملفات أثناء بناء ا�
 volumes: - ./app:/app في Compose: يربط الملفات أثناء تشغيل الحاوية.
 17-linting and tests
 flake8
+27-Django test framework
+``` Django test framework
+Based on the unittest library
+Django adds features
+1-Test client - dummy web browser
+2-Simulate authentication
+3-Temporary database
+Django REST Framework adds features
+API test client```
+
+30-mocking= يمكن مشان تفادي ارسال الايميل في ال test او استجابة وهمية
